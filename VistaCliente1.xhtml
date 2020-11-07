@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+    <body>
+        
+
+        <ui:composition template="./Basee.xhtml">
+            
+            <ui:define name="top">
+            <style>
+            h1{
+                font-size: 60px;
+            }
+            </style>
+                <h1>Control de Vacunas</h1>
+                
+            </ui:define>
+
+            <ui:define name="left">
+                <iframe src="index.xhtml" height="450px" width="150px"></iframe>
+                <img src="resources/Imagenes/Manos.png" alt="Manos" height="150px" width="150px" />
+            </ui:define>
+
+            <ui:define name="right">
+                <style>
+            h2{
+                font-size: 12.75px;
+            }
+            </style>
+               <img src="resources/Imagenes/Pande.jpg" alt="Covidd" height="350px" width="225px" /> 
+               <h2>"Si un problema puede solucionarse, si la situación es tal que puedes hacer algo al respecto, 
+                   entonces no hay necesidad de preocuparse. Si no puede arreglarse, 
+                   entonces preocuparse no tiene utilidad alguna". Dalai Lama</h2>
+            </ui:define>
+
+            <ui:define name="content">
+                <iframe name="prin" height="600px" width="1400px"></iframe> 
+            </ui:define>
+
+            <ui:define name="bottom">
+                <img src="resources/Imagenes/covid.jpg" alt="covid" height="200px" width="925px" />
+                <img src="resources/Imagenes/covid.jpg" alt="covid" height="200px" width="925px" aling="right" />
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>
